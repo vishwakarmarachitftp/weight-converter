@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #c3e0f9, #e7f987);
+}
+
+.container {
+  background-color: #f0f8ff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: left;
+  min-width: 300px;
+}
+
+h2 {
+  color: #007777;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  color: #007777;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#result {
+  color: #666;
+  font-size: 14px;
+}
